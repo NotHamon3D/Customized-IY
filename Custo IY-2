@@ -11947,7 +11947,7 @@ addcmd('tpunanchored',{'tpua'},function(args, speaker)
 			end
 		end
 	else
-		notify('Incompatible Exploit','Your exploit does not support this command (missing sethiddenproperty)')
+		notify('Wyd bruh','Your exploit doesn't even support this command :/')
 	end
 end)
 
@@ -12049,7 +12049,7 @@ addcmd('autokeypress',{'keypress'},function(args, speaker)
 		until autoKeyPressing == false
 		if cancelAutoKeyPress then cancelAutoKeyPress:Disconnect() keyrelease(code) end
 	else
-		notify('Auto Key Press',"Your exploit doesn't have the ability to use auto key press")
+		notify('Auto Key Press',"Your exploit doesn't have the ability to use auto key press L")
 	end
 end)
 
@@ -12201,7 +12201,7 @@ task.spawn(function()
 	
 	if success then
 		if currentVersion ~= latestVersionInfo.Version then
-			notify('Outdated','Get the new version at infyiff.github.io')
+			notify('Cum and dick and my mouth','Suck  my damn tits bitch, fuck you if your name is Joel')
 		end
 		
 		if latestVersionInfo.Announcement and latestVersionInfo.Announcement ~= '' then
